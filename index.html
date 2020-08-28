@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+  <h1>Cats Porfolio</h1>
+</div>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Cats</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Ragdoll</a></li>
+        <li><a href="#">Angora</a></li>
+        <li><a href="#">Somali</a></li>
+      </ul>
+      <form class="navbar-form navbar-left" action="/action_page.php">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+  </nav>
+  <div class="container-fluid"><h1>Header</h1></div>
+<div class="row">
+    <div class="col-sm-4">Ragdoll</div>
+    <div class="col-sm-4">Somali</div>
+    <div class="col-sm-4">Angora</div>
+  </div>
+  <div class="container-fluid"><h1>Thumbnail</h1></div>
+  <div class="row">
+    <div class="col-xs-6 col-md-3">
+      <a href="#" class="thumbnail">
+        <img src="assets/ragdoll1.jpg" alt="...">
+      </a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+          <img src="assets/somali1.jpg" alt="...">
+        </a>
+      </div>
+      <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+          <img src="assets/angora2.jpg" alt="...">
+        </a>
+      </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">Cat Info</div>
+    <div class="panel-body">Cats are loyal and very independent animals </div>
+  </div>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Email address:</label>
+      <input type="email" class="form-control" id="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+
+  <div class="container-fluid"><h1>Types of buttons</h1></div>
+  <button type="button" class="btn">Basic</button>
+<button type="button" class="btn btn-default">Default</button>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-link">Link</button>
+
+<h3>Pagination <span class="label label-default">New</span></h3>
+
+<nav aria-label="...">
+    <ul class="pager">
+      <li><a href="#">Previous</a></li>
+      <li><a href="#">Next</a></li>
+    </ul>
+  </nav>
+</body>
+</html>
